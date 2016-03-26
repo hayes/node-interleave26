@@ -1,0 +1,25 @@
+{
+  "name": "interleave26",
+  "version": "1.0.0",
+  "description": "interleave integers up to 26bits (52bits interleaved)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hayes/node-interleave26.git"
+  },
+  "keywords": [
+    "interleave",
+    "int",
+    "integer",
+    "merge"
+  ],
+  "author": "Michael Hayes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hayes/node-interleave26/issues"
+  },
+  "homepage": "https://github.com/hayes/node-interleave26#readme"
+}

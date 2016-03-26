@@ -1,4 +1,3 @@
-var max =
 module.exports = interleave
 
 function interleave (a, b) {
@@ -6,7 +5,7 @@ function interleave (a, b) {
     throw new Error('interleaved numbers must be integers between 0 and 67108863')
   }
   var low = interleave16(a & 0xffff, b & 0xffff)
-  if (low < 0) low = (low>>>1) * 2 + 1
+  if (low < 0) low = ( low>>> 1) * 2 + 1
   var high = interleave16(a >>> 16, b >>> 16) * 0x100000000
 
   return low + high
